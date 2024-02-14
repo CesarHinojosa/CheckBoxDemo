@@ -15,3 +15,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "CheckBoxDemo"
 include(":app")
+include(":app")
+include(":app")
+include(":app")
