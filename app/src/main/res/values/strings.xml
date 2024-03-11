@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">CheckBoxDemo</string>
+    <string name="information" />
+    <string name="toggle" />
+    <string name="checkbox_demo" />
+    <string name="checked" />
+    <string name="unchecked" />
 </resources>
