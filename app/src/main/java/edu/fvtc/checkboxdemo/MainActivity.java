@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         chkInfo.setOnCheckedChangeListener(this);
 
         initToggleButton();
-        this.setTitle(getString(R.string.checkbox_demo));
+        this.setTitle("Check Box Demo");
     }
 
     @Override
@@ -58,10 +58,10 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         TextView tvInfo = findViewById(R.id.tvInfo);
         if(isChecked)
         {
-            checkBox.setText(R.string.checked);
+            checkBox.setText("Checked");
         }
         else {
-            checkBox.setText(R.string.unchecked);
+            checkBox.setText("Unchecked");
         }
         tvInfo.setText(checkBox.getText());
     }
